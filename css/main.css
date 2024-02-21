@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: #358b35;
+}
+
+body{
+    background-color: #556B2F;
+    font-family: "Ysabeau Office", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    padding: 30px;
+    color: #201e1e;
+    
+}
+
+.wrapper{
+    max-width: 900px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #EEE8AA;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    padding: 40px;
+}
+
+.box{
+    padding: 25px;
+}
+
+.box2{
+    background-color: #BDB76B;
+}
+
+.box8{
+    background-color: #5f5c31;
+    padding: 0px;
+}
+
+h1{
+    background-color: #5f5c31;
+    font-size: 60px;
+    padding: 20px;
+}
+
+
+img {
+    width: 100%; 
+    height: 500px;
+    object-fit: fill;
+}
+
+.mdsTeleg{
+    color: #2d382d;
+}
+
+footer{
+    text-align: right;
+    padding: 15px;
+}
+
+
+
+
